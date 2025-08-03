@@ -26,12 +26,12 @@ import type {
   GetUsersIdNovelsParams,
   GetUsersParams,
   PutUsersIdBody,
-} from "../../../novel-plus-backend-hono/src/generated/types";
-import type { User } from "../../../novel-plus-backend-hono/src/generated/types/schemas-user";
-import type { DefaultError } from "../../../novel-plus-backend-hono/src/generated/types/schemas-error";
+} from "../../../types";
+import type { User } from "../../../types/schemas-user";
+import type { DefaultError } from "../../../types/schemas-error";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * ユーザー一覧をページネーション付きで取得

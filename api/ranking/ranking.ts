@@ -15,13 +15,10 @@ import type {
   UseQueryResult,
 } from "@tanstack/react-query";
 
-import type {
-  GetRankings200,
-  GetRankingsParams,
-} from "../../../novel-plus-backend-hono/src/generated/types";
+import type { GetRankings200, GetRankingsParams } from "../../../types";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * 各種ランキングを取得

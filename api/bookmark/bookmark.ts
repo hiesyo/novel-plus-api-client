@@ -12,10 +12,10 @@ import type {
   UseMutationResult,
 } from "@tanstack/react-query";
 
-import type { Bookmark } from "../../../novel-plus-backend-hono/src/generated/types/schemas-bookmark";
+import type { Bookmark } from "../../../types/schemas-bookmark";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * 指定小説をブックマークに追加

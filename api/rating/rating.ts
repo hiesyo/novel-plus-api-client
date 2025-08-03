@@ -12,11 +12,11 @@ import type {
   UseMutationResult,
 } from "@tanstack/react-query";
 
-import type { Rating } from "../../../novel-plus-backend-hono/src/generated/types/schemas-rating";
-import type { PostNovelsIdRatingBody } from "../../../novel-plus-backend-hono/src/generated/types";
+import type { Rating } from "../../../types/schemas-rating";
+import type { PostNovelsIdRatingBody } from "../../../types";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * 指定小説に評価を追加または更新

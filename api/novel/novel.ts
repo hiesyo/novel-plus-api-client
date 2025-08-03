@@ -18,24 +18,18 @@ import type {
   UseQueryResult,
 } from "@tanstack/react-query";
 
-import type {
-  GetNovels200,
-  GetNovelsParams,
-} from "../../../novel-plus-backend-hono/src/generated/types";
+import type { GetNovels200, GetNovelsParams } from "../../../types";
 import type {
   Novel,
   NovelCreate,
   NovelDetail,
   NovelUpdate,
-} from "../../../novel-plus-backend-hono/src/generated/types/schemas-novel";
-import type { DefaultError } from "../../../novel-plus-backend-hono/src/generated/types/schemas-error";
-import type {
-  Chapter,
-  ChapterCreate,
-} from "../../../novel-plus-backend-hono/src/generated/types/schemas-chapter";
+} from "../../../types/schemas-novel";
+import type { DefaultError } from "../../../types/schemas-error";
+import type { Chapter, ChapterCreate } from "../../../types/schemas-chapter";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * 小説一覧をフィルタリング・ソートして取得

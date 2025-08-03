@@ -15,15 +15,15 @@ import type {
   UseQueryResult,
 } from "@tanstack/react-query";
 
-import type { Tag } from "../../../novel-plus-backend-hono/src/generated/types/schemas-tag";
+import type { Tag } from "../../../types/schemas-tag";
 import type {
   GetTagsIdNovels200,
   GetTagsIdNovelsParams,
   GetTagsParams,
-} from "../../../novel-plus-backend-hono/src/generated/types";
+} from "../../../types";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * タグ一覧を取得

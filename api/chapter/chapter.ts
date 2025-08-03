@@ -18,13 +18,10 @@ import type {
   UseQueryResult,
 } from "@tanstack/react-query";
 
-import type {
-  Chapter,
-  ChapterUpdate,
-} from "../../../novel-plus-backend-hono/src/generated/types/schemas-chapter";
+import type { Chapter, ChapterUpdate } from "../../../types/schemas-chapter";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * 指定小説の特定の章を取得

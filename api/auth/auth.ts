@@ -16,12 +16,12 @@ import type {
   PostAuthLogin200,
   PostAuthLoginBody,
   PostAuthRegister201,
-} from "../../../novel-plus-backend-hono/src/generated/types";
-import type { DefaultError } from "../../../novel-plus-backend-hono/src/generated/types/schemas-error";
-import type { UserCreate } from "../../../novel-plus-backend-hono/src/generated/types/schemas-user";
+} from "../../../types";
+import type { DefaultError } from "../../../types/schemas-error";
+import type { UserCreate } from "../../../types/schemas-user";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * メールアドレスとパスワードでログイン

@@ -18,11 +18,11 @@ import type {
 import type {
   GetNotifications200,
   GetNotificationsParams,
-} from "../../../novel-plus-backend-hono/src/generated/types";
-import type { Notification } from "../../../novel-plus-backend-hono/src/generated/types/schemas-notification";
+} from "../../../types";
+import type { Notification } from "../../../types/schemas-notification";
 
-import { customInstance } from "../../lib/custom-instance";
-import type { ErrorType } from "../../lib/custom-instance";
+import { customInstance } from "../../custom-instance";
+import type { ErrorType } from "../../custom-instance";
 
 /**
  * お知らせ一覧を取得
